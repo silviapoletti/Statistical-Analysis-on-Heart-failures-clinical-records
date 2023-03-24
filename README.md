@@ -150,8 +150,13 @@ Criterion** (BIC) or the **Akaike Information Criterion** (AIC). Both of them ar
 likelihood to evaluate the models. The BIC is placing a larger penalty on models with a larger number of
 variables and therefore results in a smaller selection of predictors.
 
+<img align="left" width="43%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/4da18c43f31b4b014174cdd4e8e624f7d518a6b0/report/BIC.png">
+<img align="left" width="43%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/4da18c43f31b4b014174cdd4e8e624f7d518a6b0/report/BIC_ROC.png">
+
 The features selected with BIC are age, ejection_fraction, serum_creatinine, and time; all of them being significant to at least 0.02
-level. Using these predictors and a default threshold of 0.5 to calculate the performance on the training
+level. 
+
+Using these predictors and a default threshold of 0.5 to calculate the performance on the training
 and test set gives an accuracy of 85.34% and 77.61% respectively.
 In our model we prefer to minimize the False Negatives instead of the False Positives. In fact, saying
 that a person will survive the follow-up period while he/she won’t, is worse compared to committing the
