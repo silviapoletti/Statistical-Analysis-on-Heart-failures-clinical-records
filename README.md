@@ -62,12 +62,12 @@ Here follow some 3D data visualizations to identify significant patterns, trends
 
 First of all, we can have a look at the images below to understand how to interpret this kind of 3D plots. The regression surface (blue) is generated with a logistic regression model that predicts the probability of a death event based on two features.
 
+
 <p align="center">
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_1.png" width="45%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_2.png" width="45%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_3.png" width="45%"/>
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_4.png" width="45%"/>
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_5.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_1.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_2.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_3.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_4.png" width="45%"/>
 </p>
 
 Now we look at some interesting interaction effect in our dataset.
