@@ -109,10 +109,17 @@ of waste in the blood will lead to death. Then it’s reasonable that observing 
 regression line, since it represents a survived patient who, however, presented a high level of Serum Creatinine.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/f5e98e77fede14013e5d1c7c2152d1438784e002/report/serum_creatinine_outliers.png" weigth="50%">
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/f5e98e77fede14013e5d1c7c2152d1438784e002/report/serum_creatinine_outliers.png" weigth="30%">
 </p>
 
-- Platelets:
+- Platelets: samples 16, 278 and 282 don’t affect much the regression curve, unlike samples 106, 110 and 297.
+- Serum Sodium: samples 5, 20 and 127 don’t affect much the regression curve, unlike sample 200.
+- Creatinine Phosphokinase: samples 2, 53, 61, 73, 104, 135 and 172 influence the regression curve shape.
+
+In conclusion, we fit a logistic regression model considering all the features together and produce the
+Residuals VS Leverage plot:
+
+<img align="left" width="35%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/a0db1c4d9a4df7d62b5196154425decc473775ea/report/correlation.png">
 
 Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
 
