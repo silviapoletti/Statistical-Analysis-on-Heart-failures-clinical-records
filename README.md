@@ -32,7 +32,7 @@ the end of the planned follow-up period. Therefore, a death often corresponds to
 focus more on the other clinical features and their influence on the response variable.
 
 In our dataset the highest correlation (in absolute value) between features
-is $cor(sex, smoking) = 0.446$ while the others are lower than 0.230. Therefore, our models
+is $Corr(sex, smoking) = 0.446$ while the others are lower than 0.230. Therefore, our models
 will reasonably not suffer from collinearity of the features.
 
 <br/>
