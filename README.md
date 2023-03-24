@@ -7,6 +7,7 @@ the following clinical features:
 - Creatinine Phosphokinase, Ejection Fraction, Platelets, Serum Creatinine and Serum Sodium are
 continuous quantitative variables taking values in $\mathbb{R}^+$.
 - Anaemia, Diabetes, High Blood Pressure, Sex and Smoking are nominal categorical binary variables.
+
 Death Event is the target in our binary classification study and resulted to be unbalanced: the proportion of survived pationts is about 32%.
 
 # Data exploration
@@ -17,6 +18,10 @@ Covariance $S_{XY}$ and the Pearson Correlation $r_{XY}= \frac{S_{XY}}{S_X S_Y}$
 In the following plot, the shape of the ellipses represents the Pearson coefficient for the corresponding
 variables: a flattened ellipse indicates that $r_{XY}$ is near 1 or -1, while an almost circular ellipse indicates that
 $r_{XY}$ is near 0.
+
+<p align="center">
+  <img src="https://github.com/silviapoletti/Malingering-detection/blob/51a723b352778bf52ab7d8c3e4367eb95a0717dd/plots/separable_density_plots.png" width="40%"/>
+</p>
 
 This plot highlights that Age and Serum Creatinine have a just hinted positive correlation with the
 response, while Serum Sodium and Ejection Fraction have a just hinted negative linear correlation with
