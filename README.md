@@ -19,7 +19,7 @@ In the following plot, the shape of the ellipses represents the Pearson coeffici
 variables: a flattened ellipse indicates that $r_{XY}$ is near 1 or -1, while an almost circular ellipse indicates that
 $r_{XY}$ is near 0.
 
-<img align="left" width="25%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/a0db1c4d9a4df7d62b5196154425decc473775ea/report/correlation.png">
+<img align="left" width="35%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/a0db1c4d9a4df7d62b5196154425decc473775ea/report/correlation.png">
 
 This plot highlights that Age and Serum Creatinine have a just hinted positive correlation with the
 response, while Serum Sodium and Ejection Fraction have a just hinted negative linear correlation with
