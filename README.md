@@ -49,11 +49,11 @@ will reasonably not suffer from collinearity of the features.
 # What increments the risk of dying after an heart attack?
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_1.png" width="45%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_2.png" width="45%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_3.png" width="45%"/>
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_4.png" width="45%"/>
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_5.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_1.png" width="25%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_2.png" width="25%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_3.png" width="25%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_4.png" width="25%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_5.png" width="25%"/>
 </p>
 
 # Is there any interaction effect between the clinical variables?
