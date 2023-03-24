@@ -171,8 +171,13 @@ Our dataset is characterized by the following limitations:
 - only 299 records;
 - unbalanced data with respect to gender (65% males, 35% females), smokers (32% smokers, 68% non smokers) and follow-up result (32% dead, 68% alive).
 
-<img align="left" width="43%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/ab4e52c40e492f6e4c0b845cf6571df43c425162/report/high_leverage_point.png">
 
-To predict the death event we consider K-Nearest Neighbours (KNN), Linear and Quadratic Discriminant Analysis (LDA and QDA) and dimensionality reduction by using Best Subset Selection (BIC and AIC) and Shrinkage methods (Ridge and Lasso regression). The results are reported in the table.
+To predict the death event we consider K-Nearest Neighbours (KNN), Linear and Quadratic Discriminant Analysis (LDA and QDA) and dimensionality reduction by using Best Subset Selection (BIC and AIC) and Shrinkage methods (Ridge and Lasso regression). The accuracy and error rates of the models are reported in the tables below.
+
+<p align="center">
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/fcae5239985744c9849406cb562da67de471a1cf/report/accuracy.png" width="50%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/fcae5239985744c9849406cb562da67de471a1cf/report/error_rates.png" width="50%"/>
+</p>
+
 
 
