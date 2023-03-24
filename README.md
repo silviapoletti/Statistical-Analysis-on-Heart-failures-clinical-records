@@ -13,7 +13,7 @@ Death Event is the target in our binary classification study and resulted to be 
 # Data exploration
 
 The strenght of the linear association between two variables X and Y can be expressed in terms of the
-Covariance $S_{XY}$ and the Pearson Correlation $r_{XY}= \frac{S_{XY}}{S_X S_Y}$.
+Covariance $S_{XY}$ and the Pearson Correlation $r_{XY} = S_{XY}/(S_X S_Y)$.
 
 In the following plot, the shape of the ellipses represents the Pearson coefficient for the corresponding
 variables: a flattened ellipse indicates that $r_{XY}$ is near 1 or -1, while an almost circular ellipse indicates that
