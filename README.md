@@ -109,7 +109,7 @@ of waste in the blood will lead to death. Then it’s reasonable that observing 
 regression line, since it represents a survived patient who, however, presented a high level of Serum Creatinine.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/f5e98e77fede14013e5d1c7c2152d1438784e002/report/serum_creatinine_outliers.png" weigth="30%">
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/f5e98e77fede14013e5d1c7c2152d1438784e002/report/serum_creatinine_outliers.png" weigth="20%">
 </p>
 
 - Platelets: samples 16, 278 and 282 don’t affect much the regression curve, unlike samples 106, 110 and 297.
@@ -119,7 +119,7 @@ regression line, since it represents a survived patient who, however, presented 
 In conclusion, we fit a logistic regression model considering all the features together and produce the
 Residuals VS Leverage plot:
 
-<img align="left" width="35%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/ab4e52c40e492f6e4c0b845cf6571df43c425162/report/high_leverage_point.png">
+<img align="left" width="50%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/ab4e52c40e492f6e4c0b845cf6571df43c425162/report/high_leverage_point.png">
 
 Outliers:
 - Patient 187 was just 50 years old and died after a long follow-up period without presenting any particularly
