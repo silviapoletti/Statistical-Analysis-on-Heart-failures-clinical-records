@@ -119,7 +119,23 @@ regression line, since it represents a survived patient who, however, presented 
 In conclusion, we fit a logistic regression model considering all the features together and produce the
 Residuals VS Leverage plot:
 
-<img align="left" width="35%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/a0db1c4d9a4df7d62b5196154425decc473775ea/report/correlation.png">
+<img align="left" width="35%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/ab4e52c40e492f6e4c0b845cf6571df43c425162/report/high_leverage_point.png">
+
+Outliers:
+- Patient 187 was just 50 years old and died after a long follow-up period without presenting any particularly
+critical clinical value.
+- Patient 196 presented a quite old age and both low Ejection Fraction and a high level of Serum Creatinine,
+but he only died after 180 days of follow-up.
+- Patient 64 died at early age.
+- Patients 229 and 132 did not die, even if they had low Ejection Fraction, slightly low Serum Sodium and
+extremely high Serum Creatinine.
+- Patient 39 had serius clinical values, such as low Ejection Fraction, pretty high Creatinine Phosphokinase,
+Diabetes and high Serum Creatinine, but his follow-up period terminated quickly.
+
+High leverage point:
+- Patient 185 presented a very low Ejection Fraction, while the other clinical values are acceptable or even
+fall in the normal range. He eventually died after a long follow-up period, at a relatively early age.
+
 
 Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
 
