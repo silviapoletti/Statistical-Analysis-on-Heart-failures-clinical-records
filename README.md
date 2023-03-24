@@ -35,12 +35,14 @@ In our dataset the highest correlation (in absolute value) between features
 is $cor(sex, smoking) = 0.446$ while the others are lower than 0.230. Therefore, our models
 will reasonably not suffer from collinearity of the features.
 
+<br/>
+<br/>
 # How gender influences the medical parameters?
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_1.png" width="30%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_2.png" width="30%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_3.png" width="30%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_2.png" width="40%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_3.png" width="40%"/>
 </p>
 
 
