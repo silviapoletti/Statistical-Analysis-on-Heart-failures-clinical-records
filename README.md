@@ -13,7 +13,7 @@ Death Event is the target in our binary classification study and resulted to be 
 # Data exploration
 
 The strenght of the linear association between two variables X and Y can be expressed in terms of the
-Covariance $S_{XY}$ and the Pearson Correlation $r_{XY} = S_{XY}/(S_X S_Y)$.
+Covariance $S_{XY}$ and the **Pearson Correlation** $r_{XY} = S_{XY}/(S_X S_Y)$.
 
 In the following plot, the shape of the ellipses represents the Pearson coefficient for the corresponding
 variables: a flattened ellipse indicates that $r_{XY}$ is near 1 or -1, while an almost circular ellipse indicates that
@@ -58,9 +58,9 @@ will reasonably not suffer from collinearity of the features.
 
 # Is there any interaction effect between the clinical variables?
 
-Here follow some 3D data visualizations to identify significant patterns, trends and interaction effects in the data.
+Here follow some 3D data visualizations to identify significant patterns, trends and **interaction effects** in the data.
 
-First of all, we can have a look at the images below to understand how to interpret this kind of 3D plots. The regression surface (blue) is generated with a logistic regression model that predicts the probability of a death event based on two features.
+First of all, we can have a look at the images below to understand how to interpret this kind of 3D plots. The **regression surface** (blue) is generated with a logistic regression model that predicts the probability of a death event based on two features.
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_1.png" width="240" height="240"/>
@@ -96,7 +96,7 @@ and therefore we can exclude an interaction effect between Ejection Fraction and
 
 # Diagnostic: Does the dataset include extreme or rare events?
 
-Now we focus on outliers and high leverage points for logistic regression.
+Now we focus on **outliers** and **high leverage points** for logistic regression.
 First, we analyzed the problematic points for each quantitative feature separately, just to give an intuition
 of which points fall out of the normal medical range and could have an influence on the regression. For each anomalous point, we re-compute the logistic model and the regression curve on a restricted
 dataset that does not include that point. If the regression curve changes, then we have a high leverage point.
@@ -117,7 +117,7 @@ regression line, since it represents a survived patient who, however, presented 
 - Creatinine Phosphokinase: samples 2, 53, 61, 73, 104, 135 and 172 influence the regression curve shape.
 
 In conclusion, we fit a logistic regression model considering all the features together and produce the
-Residuals VS Leverage plot:
+**Residuals VS Leverage plot**:
 
 <img align="left" width="43%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/ab4e52c40e492f6e4c0b845cf6571df43c425162/report/high_leverage_point.png">
 
@@ -135,6 +135,29 @@ Diabetes and high Serum Creatinine, but his follow-up period ended quickly.
 High leverage point:
 - Patient 185 presented a very low Ejection Fraction, while the other clinical values are acceptable or even
 fall in the normal range. He eventually died after a long follow-up period, at a relatively early age.
+
+# How many clinical features are necessary to predict death?
+
+The **Best Subset Selection** is a method for strategically choosing the predictors until the best model
+with a given number of predictors is found. The algorithm starts with the null model, containing no predictors,
+which predicts the sample mean for each observation. Then predictors are incrementally added
+one by one to the null model. At the k-th increment, all possible models with k predictors are evaluated
+with a certain performance measure. This is done, until a selected maximum number of predictors is
+reached. For each number of predictors, the best model is selected: these models can be compared assessing
+the trade-off between the fit of the model and its simplicity.
+The evaluation and comparison can be done using various performance measures, such as the **Bayesian Information
+Criterion** (BIC) or the **Akaike Information Criterion** (AIC). Both of them are using the maximum
+likelihood to evaluate the models. The BIC is placing a larger penalty on models with a larger number of
+variables and therefore results in a smaller selection of predictors.
+
+The features selected with BIC are age, ejection_fraction, serum_creatinine, and time; all of them being significant to at least 0.02
+level. Using these predictors and a default threshold of 0.5 to calculate the performance on the training
+and test set gives an accuracy of 85.34% and 77.61% respectively.
+In our model we prefer to minimize the False Negatives instead of the False Positives. In fact, saying
+that a person will survive the follow-up period while he/she won’t, is worse compared to committing the
+opposite error. For this reason, the obtained results can be optimized by adjusting the default threshold to 0.24
+through the ROC curve analysis.
+
 
 
 Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
