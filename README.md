@@ -151,7 +151,8 @@ likelihood to evaluate the models. The BIC is placing a larger penalty on models
 variables and therefore results in a smaller selection of predictors.
 
 <img align="left" width="43%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/4da18c43f31b4b014174cdd4e8e624f7d518a6b0/report/BIC.png">
-<img align="left" width="20%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/4da18c43f31b4b014174cdd4e8e624f7d518a6b0/report/BIC_ROC.png">
+
+<img align="left" width="30%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/4da18c43f31b4b014174cdd4e8e624f7d518a6b0/report/BIC_ROC.png">
 
 The features selected with BIC are age, ejection_fraction, serum_creatinine, and time; all of them being significant to at least 0.02
 level. 
