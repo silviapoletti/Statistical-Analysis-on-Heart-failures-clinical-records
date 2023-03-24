@@ -161,7 +161,7 @@ opposite error. For this reason, the obtained results can be optimized by adjust
 through the ROC curve analysis.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/a54445dd3e85dff1d72d407c87b42d172ac09434/report/BIC.png" width="60%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/a54445dd3e85dff1d72d407c87b42d172ac09434/report/BIC.png" width="80%"/>
 </p>
 
 
