@@ -41,9 +41,9 @@ will reasonably not suffer from collinearity of the features.
 # How gender influences the medical parameters?
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_1.png" width="35%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_2.png" width="35%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_3.png" width="35%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_1.png" width="50%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_2.png" width="50%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_3.png" width="50%"/>
 </p>
 
 
