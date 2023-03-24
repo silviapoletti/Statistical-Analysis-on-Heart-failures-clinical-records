@@ -35,6 +35,8 @@ In our dataset the highest correlation (in absolute value) between features
 is $cor(sex, smoking) = 0.446$ while the others are lower than 0.230. Therefore, our models
 will reasonably not suffer from collinearity of the features.
 
+# How gender influences the medical parameters?
+
 <p align="center">
   <img src="https://github.com/silviapoletti/Malingering-detection/blob/51a723b352778bf52ab7d8c3e4367eb95a0717dd/plots/separable_density_plots.png" width="40%"/>
 </p>
