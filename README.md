@@ -175,8 +175,8 @@ Our dataset is characterized by the following limitations:
 To predict the death event we consider K-Nearest Neighbours (KNN), Linear and Quadratic Discriminant Analysis (LDA and QDA) and dimensionality reduction by using Best Subset Selection (BIC and AIC) and Shrinkage methods (Ridge and Lasso regression). The accuracy and error rates of the models are reported in the tables below.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/fcae5239985744c9849406cb562da67de471a1cf/report/accuracy.png" width="50%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/fcae5239985744c9849406cb562da67de471a1cf/report/error_rates.png" width="50%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/fcae5239985744c9849406cb562da67de471a1cf/report/accuracy.png" width="45%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/fcae5239985744c9849406cb562da67de471a1cf/report/error_rates.png" width="45%"/>
 </p>
 
 
