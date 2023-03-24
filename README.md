@@ -150,10 +150,6 @@ Criterion** (BIC) or the **Akaike Information Criterion** (AIC). Both of them ar
 likelihood to evaluate the models. The BIC is placing a larger penalty on models with a larger number of
 variables and therefore results in a smaller selection of predictors.
 
-<img align="left" width="43%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/4da18c43f31b4b014174cdd4e8e624f7d518a6b0/report/BIC.png">
-
-<img align="left" width="30%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/4da18c43f31b4b014174cdd4e8e624f7d518a6b0/report/BIC_ROC.png">
-
 The features selected with BIC are age, ejection_fraction, serum_creatinine, and time; all of them being significant to at least 0.02
 level. 
 
@@ -164,6 +160,10 @@ that a person will survive the follow-up period while he/she won’t, is worse c
 opposite error. For this reason, the obtained results can be optimized by adjusting the default threshold to 0.24
 through the ROC curve analysis.
 
+<p align="center">
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/4da18c43f31b4b014174cdd4e8e624f7d518a6b0/report/BIC.png" width="43%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/4da18c43f31b4b014174cdd4e8e624f7d518a6b0/report/BIC_ROC.png" width="33%"/>
+</p>
 
 
 Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
