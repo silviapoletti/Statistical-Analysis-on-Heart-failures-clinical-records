@@ -56,9 +56,21 @@ will reasonably not suffer from collinearity of the features.
   <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_5.png" width="45%"/>
 </p>
 
+# Is there any interaction effect between the clinical variables?
 
-Data exploration: descriptive statistics and 3D data visualization to identify significant patterns, trends and interaction effects in the data.
-Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
+Here follow some 3D data visualizations to identify significant patterns, trends and interaction effects in the data.
+
+First of all, we can have a look at the images below to understand how to interpret this kind of 3D plots.
+
+<p align="center">
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_1.png" width="45%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_2.png" width="45%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_3.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_4.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_5.png" width="45%"/>
+</p>
+
+Now we look at some interesting interaction effect in our dataset.
 
 ![alt text](https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/main/images/3dplot_serumcreatinine_ejectionfraction.png?raw=true)
 
@@ -82,3 +94,9 @@ Even if the majority of points in the portion of space described by Ejection Fra
 greater than 70, belong to class 1, there’s also a small amount of points in that region belonging to class
 0, as shown in the third plot. In addition, there’s a relevant amount of misclassified points in both classes
 and therefore we can exclude an interaction effect between Ejection Fraction and Age.
+
+
+
+Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
+
+
