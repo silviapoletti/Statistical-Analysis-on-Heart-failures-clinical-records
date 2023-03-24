@@ -158,13 +158,21 @@ and test set gives an accuracy of 85.34% and 77.61% respectively.
 In our model we prefer to minimize the False Negatives instead of the False Positives. In fact, saying
 that a person will survive the follow-up period while he/she won’t, is worse compared to committing the
 opposite error. For this reason, the obtained results can be optimized by adjusting the default threshold to 0.24
-through the ROC curve analysis.
+through the ROC curve analysis: the accuracy drops to 73.13% but the model gains the best possible
+sensitivity (86.96%) and specificity (78.52%).
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/a54445dd3e85dff1d72d407c87b42d172ac09434/report/BIC.png" width="80%"/>
 </p>
 
+# How difficult is to predict death after a heart attack?
 
-Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
+Our dataset is characterized by the following limitations:
+- only 299 records;
+- unbalanced data with respect to gender (65% males, 35% females), smokers (32% smokers, 68% non smokers) and follow-up result (32% dead, 68% alive).
+
+<img align="left" width="43%" src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/ab4e52c40e492f6e4c0b845cf6571df43c425162/report/high_leverage_point.png">
+
+To predict the death event we consider K-Nearest Neighbours (KNN), Linear and Quadratic Discriminant Analysis (LDA and QDA) and dimensionality reduction by using Best Subset Selection (BIC and AIC) and Shrinkage methods (Ridge and Lasso regression). The results are reported in the table.
 
 
