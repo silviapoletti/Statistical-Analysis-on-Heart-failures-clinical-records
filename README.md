@@ -130,7 +130,7 @@ but he only died after 180 days of follow-up.
 - Patients 229 and 132 did not die, even if they had low Ejection Fraction, slightly low Serum Sodium and
 extremely high Serum Creatinine.
 - Patient 39 had serius clinical values, such as low Ejection Fraction, pretty high Creatinine Phosphokinase,
-Diabetes and high Serum Creatinine, but his follow-up period terminated quickly.
+Diabetes and high Serum Creatinine, but his follow-up period ended quickly.
 
 High leverage point:
 - Patient 185 presented a very low Ejection Fraction, while the other clinical values are acceptable or even
