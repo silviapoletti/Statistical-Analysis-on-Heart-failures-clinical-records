@@ -19,7 +19,7 @@ In the following plot, the shape of the ellipses represents the Pearson coeffici
 variables: a flattened ellipse indicates that $r_{XY}$ is near 1 or -1, while an almost circular ellipse indicates that
 $r_{XY}$ is near 0.
 
-![image](https://github.com/silviapoletti/Malingering-detection/blob/51a723b352778bf52ab7d8c3e4367eb95a0717dd/plots/separable_density_plots.png){: style="float: left"}
+<img align="left" width="100%" src="http://www.fillmurray.com/100/100"
 
 This plot highlights that Age and Serum Creatinine have a just hinted positive correlation with the
 response, while Serum Sodium and Ejection Fraction have a just hinted negative linear correlation with
