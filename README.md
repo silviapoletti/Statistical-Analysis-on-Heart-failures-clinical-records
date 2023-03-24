@@ -95,8 +95,23 @@ greater than 70, belong to class 1, there’s also a small amount of points in t
 0, as shown in the third plot. In addition, there’s a relevant amount of misclassified points in both classes
 and therefore we can exclude an interaction effect between Ejection Fraction and Age.
 
-# Does the dataset include extreme or rare events?
+# Diagnostic: Does the dataset include extreme or rare events?
 
+Now we focus on outliers and high leverage points for logistic regression.
+First, we analyzed the problematic points for each quantitative feature separately, just to give an intuition
+of which points fall out of the normal medical range and could have an influence on the regression. For each anomalous point, we re-compute the logistic model and the regression curve on a restricted
+dataset that does not include that point. If the regression curve changes, then we have a high leverage point.
+Finally we considered all the features together (quantitative and qualitative).
+
+- Serum Cratinine: The samples 10, 29, 53 and 218 result to not influence the shape of the
+regression line when excluded (the blue new regression line overlaps with the black original regression line), whereas the presence of sample 132 and 229 highly influences the regression line (the green new regression line differs from the black original regression line). In fact, the typical range for Serum Creatinine is (0.5, 1.0) for females and (0.7, 1.2) for
+males, and here anomalous values are greater than 5.0. Therefore, one could expect that such high levels
+of waste in the blood will lead to death. Then it’s reasonable that observing samples 132 and 229 will change the
+regression line, since it represents a survived patient who, however, presented a high level of Serum Creatinine.
+
+
+
+- 
 
 Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
 
