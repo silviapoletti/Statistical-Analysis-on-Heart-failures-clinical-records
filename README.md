@@ -46,6 +46,9 @@ will reasonably not suffer from collinearity of the features.
     <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/c1d4dbb2cc02559784bdce31f1f507a02f36e1e6/report/gender_influence_3.png" width="45%"/>
 </p>
 
+# What increments the risk of dying after an heart attack?
+
+
 
 Data exploration: descriptive statistics and 3D data visualization to identify significant patterns, trends and interaction effects in the data.
 Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
