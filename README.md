@@ -62,7 +62,6 @@ Here follow some 3D data visualizations to identify significant patterns, trends
 
 First of all, we can have a look at the images below to understand how to interpret this kind of 3D plots. The regression surface (blue) is generated with a logistic regression model that predicts the probability of a death event based on two features.
 
-
 <p align="center">
   <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_1.png" width="240" height="240"/>
   <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_2.png" width="240" height="240"/>
@@ -109,9 +108,11 @@ males, and here anomalous values are greater than 5.0. Therefore, one could expe
 of waste in the blood will lead to death. Then it’s reasonable that observing samples 132 and 229 will change the
 regression line, since it represents a survived patient who, however, presented a high level of Serum Creatinine.
 
+<p align="center">
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/f5e98e77fede14013e5d1c7c2152d1438784e002/report/serum_creatinine_outliers.png" weigth="50%">
+</p>
 
-
-- 
+- Platelets:
 
 Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
 
