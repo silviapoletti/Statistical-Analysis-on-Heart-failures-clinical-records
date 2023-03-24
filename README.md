@@ -60,7 +60,7 @@ will reasonably not suffer from collinearity of the features.
 
 Here follow some 3D data visualizations to identify significant patterns, trends and interaction effects in the data.
 
-First of all, we can have a look at the images below to understand how to interpret this kind of 3D plots.
+First of all, we can have a look at the images below to understand how to interpret this kind of 3D plots. The regression surface (blue) is generated with a logistic regression model that predicts the probability of a death event based on two features.
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_1.png" width="45%"/>
@@ -95,6 +95,7 @@ greater than 70, belong to class 1, there’s also a small amount of points in t
 0, as shown in the third plot. In addition, there’s a relevant amount of misclassified points in both classes
 and therefore we can exclude an interaction effect between Ejection Fraction and Age.
 
+# Does the dataset include extreme or rare events?
 
 
 Data modelling: K Nearest Neighbours, Linear and Quadratic Discriminant Analysis and dimensionality reduction by using Best Subset Selection and Shrinkage methods.
