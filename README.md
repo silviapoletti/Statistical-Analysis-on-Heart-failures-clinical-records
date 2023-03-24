@@ -49,11 +49,11 @@ will reasonably not suffer from collinearity of the features.
 # What increments the risk of dying after an heart attack?
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_1.png" width="25%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_2.png" width="25%"/>
-    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_3.png" width="25%"/>
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_4.png" width="25%"/>
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_5.png" width="25%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_1.png" width="45%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_2.png" width="45%"/>
+    <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_3.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_4.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/8083a21b7cdb00d2bc6848ba65caaf0c0328fd62/report/risk_5.png" width="45%"/>
 </p>
 
 # Is there any interaction effect between the clinical variables?
@@ -64,10 +64,10 @@ First of all, we can have a look at the images below to understand how to interp
 
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_1.png" width="45%"/>
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_2.png" width="45%"/>
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_3.png" width="45%"/>
-  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_4.png" width="45%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_1.png" width="25%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_2.png" width="25%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_3.png" width="25%"/>
+  <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/7f1a774faac1af7bc3a7531116f460d2aad551eb/report/3Dplot_4.png" width="25%"/>
 </p>
 
 Now we look at some interesting interaction effect in our dataset.
