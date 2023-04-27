@@ -1,5 +1,7 @@
 # Statistical Analysis on heart failures clinical records
 
+<img align="right" width="30%" src="https://www.bhf.org.uk/-/media/images/information-support/conditions/heart-failure-205x316/heart-failure-image-1.jpg?rev=4319a59478d94395bc5645e58ddc1d4a">
+
 We consider a heart failure clinical record [dataset](https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records) including the medical records of 299 patients who had left ventricular systolic dysfunction and
 had previous heart failures. Data was collected during the follow-up period and each patient profile has
 the following clinical features: 
