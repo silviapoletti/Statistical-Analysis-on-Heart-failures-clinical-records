@@ -10,7 +10,7 @@ the following clinical features:
 continuous quantitative variables taking values in $\mathbb{R}^+$.
 - Anaemia, Diabetes, High Blood Pressure, Sex and Smoking are nominal categorical binary variables.
 
-Death Event is the target in our binary classification study and resulted to be unbalanced: the proportion of survived pationts is about 32%.
+Death Event is the target in our binary classification study and resulted to be unbalanced: the proportion of survived patients is about 32%.
 
 # Data exploration
 
