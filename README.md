@@ -78,7 +78,7 @@ Now we look at some interesting interaction effect in our dataset.
 Low Ejection Fraction and high Serum Creatinine could reasonably lead to death. In fact the (blue) regression
 surface cut the (grey) horizontal plane - representing the default threshold 0.5 - forming an oblique
 line. However, in the second and third plot, we can observe some misclassified points, both for class 0 and
-class 1. Therefore we can’t expect an interaction effect between Ejection Fraction and Serum Creatinine.
+class 1. Therefore we can’t expect a strong interaction effect between Ejection Fraction and Serum Creatinine.
 
 ![alt text](https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/421f8f7a6225c3a70914af956a0676e737f42808/report/3dplot_serumsodium_ejectionfraction.png?raw=true)
 
