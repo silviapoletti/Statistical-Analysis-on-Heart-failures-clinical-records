@@ -5,7 +5,7 @@
 We consider a heart failure clinical record [dataset](https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records) including the medical records of 299 patients who had left ventricular systolic dysfunction and
 had previous heart failures. Data was collected during the follow-up period and each patient profile has
 the following clinical features: 
-- Age and Time are discrete quantitative variable taking values in $\mathbb{N}^+$;
+- Age and Time (follow-up duration) are discrete quantitative variable taking values in $\mathbb{N}^+$;
 - Creatinine Phosphokinase, Ejection Fraction, Platelets, Serum Creatinine and Serum Sodium are
 continuous quantitative variables taking values in $\mathbb{R}^+$.
 - Anaemia, Diabetes, High Blood Pressure, Sex and Smoking are nominal categorical binary variables.
