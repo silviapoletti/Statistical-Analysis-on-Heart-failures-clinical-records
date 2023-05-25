@@ -161,7 +161,7 @@ In our model we prefer to minimize the False Negatives instead of the False Posi
 that a person will survive the follow-up period while he/she won’t, is worse compared to committing the
 opposite error. For this reason, the obtained results can be optimized by adjusting the default threshold to 0.24
 through the ROC curve analysis: the accuracy drops to 73.13% but the model gains the best possible
-sensitivity (86.96%) and specificity (78.52%).
+sensitivity (86.96) and specificity (78.52).
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Statistical-Analysis-on-Heart-failures-clinical-records/blob/a54445dd3e85dff1d72d407c87b42d172ac09434/report/BIC.png" width="80%"/>
